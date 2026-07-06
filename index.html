@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TapScout — バレーボール スカウティング＆アナライジング</title>
+  <meta name="description" content="TapScoutは、タップ操作で簡単にプレーを記録し、統計分析・コース可視化ができるバレーボール分析アプリです。">
+  <style>
+    :root {
+      --accent: #e8562a;
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #f5f6f8;
+      --muted: #9aa1ac;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
+    header { text-align: center; margin-bottom: 56px; }
+    h1 { font-size: 2.4rem; letter-spacing: 0.02em; }
+    h1 .accent { color: var(--accent); }
+    .tagline { color: var(--muted); margin-top: 12px; font-size: 1.05rem; }
+    .features { display: grid; gap: 16px; margin: 40px 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 14px;
+      padding: 22px 24px;
+    }
+    .card h2 { font-size: 1.1rem; margin-bottom: 6px; }
+    .card p { color: var(--muted); font-size: 0.96rem; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 56px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 24px;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Tap<span class="accent">Scout</span></h1>
+      <p class="tagline">バレーボール スカウティング＆アナライジング アプリ</p>
+    </header>
+
+    <section class="features">
+      <div class="card">
+        <h2>タップで簡単記録</h2>
+        <p>コート図をタップするだけでプレーを記録。試合中でもスピーディーに入力できます。</p>
+      </div>
+      <div class="card">
+        <h2>統計分析</h2>
+        <p>決定率・効果率・サイドアウト率など、チームと選手のパフォーマンスを多角的に可視化します。</p>
+      </div>
+      <div class="card">
+        <h2>コース可視化</h2>
+        <p>アタックやサーブの始点・終点をヒートマップとラインで表示し、攻撃傾向を把握できます。</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>TapScout — 中学・高校のクラブ活動向けバレーボール分析アプリ</p>
+      <p style="margin-top:8px;">お問い合わせ：<a href="mailto:miya.no1v10@gmail.com">miya.no1v10@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
