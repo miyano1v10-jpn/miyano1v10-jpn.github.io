@@ -36,11 +36,12 @@ h2 { font-size: .85rem; letter-spacing: .12em; color: var(--muted); margin: 0 0 
 a.app:hover { border-color: var(--accent); transform: translateY(-1px); }
 .icon {
   flex: none; width: 52px; height: 52px; border-radius: 12px;
-  display: grid; place-items: center; font-weight: 800; font-size: 1.1rem; color: #fff;
+  display: grid; place-items: center; font-weight: 800; font-size: 1.1rem; color: #fff; box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);
 }
 .body { flex: 1; min-width: 0; }
 .name { font-weight: 700; margin: 0; overflow-wrap: anywhere; }
 .desc { color: var(--muted); font-size: .92rem; margin: 2px 0 0; }
+.badge { display: inline-block; font-size: .7rem; font-weight: 600; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; margin-left: 4px; vertical-align: 2px; white-space: nowrap; }
 .links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0; padding: 0; list-style: none; font-size: .85rem; }
 .links a { color: var(--link); }
 .contact { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
@@ -90,6 +91,42 @@ footer { margin-top: 48px; color: var(--muted); font-size: .85rem; border-top: 1
           <p class="name">バレーボールスコアボード+</p>
           <p class="desc">得点を大きく表示できるバレーボール専用の得点板アプリ</p>
           <ul class="links"><li><a href="scoreboard/">サポート</a></li><li><a href="scoreboard/privacy.html">プライバシーポリシー</a></li><li><a href="scoreboard/terms.html">利用規約</a></li><li><a href="scoreboard/en/">English</a></li></ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="app">
+        <div class="icon" style="background:#1f6f5c">Lag</div>
+        <div class="body">
+          <p class="name">LagMe（ラグミー）- 遅延再生カメラ</p>
+          <p class="desc">数秒遅れの映像でフォームをすぐ確認できる、スポーツ向け遅延再生カメラ</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="app">
+        <div class="icon" style="background:#2b5fa8">作</div>
+        <div class="body">
+          <p class="name">バレーボール作戦ボード+ <span class="badge">近日公開</span></p>
+          <p class="desc">シンプルで直感的に使えるバレーボールの作戦ボード</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="app">
+        <div class="icon" style="background:#3a9a4a">歩</div>
+        <div class="body">
+          <p class="name">あるくじ <span class="badge">近日公開</span></p>
+          <p class="desc">毎日の歩数がくじ番号になる、無料の歩いて当たる懸賞アプリ</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="app">
+        <div class="icon" style="background:#d9a21b">♡</div>
+        <div class="body">
+          <p class="name">ありがとう貯金 <span class="badge">近日公開</span></p>
+          <p class="desc">家事の「ありがとう」をポイントで貯める、家族の家事分担アプリ</p>
         </div>
       </div>
     </li>
